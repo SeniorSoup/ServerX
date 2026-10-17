@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "dev.serverx.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "CommandsMixin",
+    "ServerExplosionMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

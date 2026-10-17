@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "serverx",
+  "version": "${version}",
+  "name": "ServerX",
+  "description": "Moderation utility mod: console commands, protected regions and a prison system, integrated with LuckPerms.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.serverx.ServerX"]
+  },
+  "mixins": ["serverx.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.1",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "luckperms": "*"
+  }
+}
